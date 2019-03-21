@@ -1,0 +1,27 @@
+graded as late
+
+
+In the main page, you can view the 10 most recent notes, and the notes that are recommended by admin(s). Without login, a visitor can only 
+see titles and several lines preview of notes. You must login to view all content of these notes.
+
+
+default admin account:
+username:admin
+password:admin
+As an admin, you can view all users and notes, delete users and notes, and add recommended. Admin
+also have a normal user profile.
+Admin can set another user to admin, or set another admin as regular user.
+If you logged in as admin, you will be redirected to the admin panel. You can also enter the admin panel via the "Admin Panel" button on 
+the top-right. The "Admin Panel" button will disappear if you have already entered into admin panel because we think it is unnecessary.
+You will be redirected to the main page if you don't have the admin permission but try to enter into admin page by typing the url of admin 
+page in the browser.
+
+
+User account:
+You can sign up a new account by clicking the "Sign up" button on the top right. You can add new notes, edit you notes 
+and change your password
+in profile page. The 10 newest notes will be added into recent block of main page. In main page you can view other's notes.
+
+If a user or an admin delete notes, the notes list in mainpage will also be updated.
+
+App Link:https://online-note-taker.herokuapp.com

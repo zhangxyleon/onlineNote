@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log in</title>
+    <link rel="stylesheet" type="text/css" href="../login_sys/login.css">
+</head>
+<body>
+    <div id="header">
+        <a href="../index/index.html"><img class="logo" src="../resources/home.png"></a>
+        <a class="logIn" href="login.html">Log in</a>
+        <a class="signUp" href="sign_up.html">Sign up</a>
+    </div>
+
+    <div id="banner">
+        <img class="bLogo" src="../resources/logo.png">
+        <h1>Online Note Saver</h1>
+    </div>
+
+    <!--<form action="login.html" method="post">-->
+    <table id="loginTable">
+        <tr>
+            <td>
+                Username:
+            </td>
+            <td>
+                <input name="username" class="inputBox" id="usernameInput" type="text" placeholder="Username">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Password:
+            </td>
+            <td>
+                <input name="password" class="passwordInputBox" id="passwordInput" type="password" placeholder="Password">
+            </td>
+        </tr>
+    </table>
+    <!--</form>-->
+
+    <div id="bottom">
+        <a id="message"></a>
+        <br>
+        <a>No account? <a href="../login_sys/sign_up.html">Create</a></a>
+        <br>
+        <form id="buttonForm">
+            <input type="submit" id="loginButton" value="Login">
+        </form>
+    </div>
+
+    <script type="text/javascript" src="login.js"></script>
+</body>
+</html>

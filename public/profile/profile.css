@@ -1,0 +1,173 @@
+body {
+    background-color: #e6ecf0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+button {
+    width: 50px;
+    text-align: center;
+}
+
+#header {
+    padding: 5px;
+    background-color: white;
+    position: fixed;
+    height: 40px;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid gray;
+}
+
+#banner {
+    margin-top: 50px;
+    height: 150px;
+    background-color: white;
+}
+
+#banner h1 {
+    margin-top: 40px;
+    float: right;
+    margin-right: 100px;
+    font-size: 32px;
+}
+
+.bLogo {
+    margin-left: 100px;
+    height: 150px;
+    float: left;
+}
+
+.logo {
+    margin-top: 5px;
+    height: 30px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+.logOut {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+#userPic {
+    margin-top: 5px;
+    float: right;
+    height: 30px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+.adminPage {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+#personalInfo {
+    float: left;
+    overflow: auto;
+    margin-left: 150px;
+    margin-top: 70px;
+    height: 220px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+#personalInfo p {
+    margin-left: 20px;
+    margin-top: 35px;
+    font-weight: bold;
+}
+
+#personalInfo span {
+    font-weight: normal;
+}
+
+#personalInfo a {
+    float:right;
+    margin-right: 20px;
+}
+
+#userPicBig {
+    height: 150px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 300px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+
+#notes {
+    border-radius: 10px;
+    margin-left: 500px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    width: 700px;
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.addNote {
+    margin-top: 25px;
+    height: 50px;
+}
+
+.addNote a {
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.note {
+    display: inline-block;
+    min-height: 50px;
+    width: 700px;
+    border-top: 1px solid gray;
+    overflow: auto;
+}
+
+.firstNote {
+    display: inline-block;
+    min-height: 50px;
+    width: 700px;
+    overflow: auto;
+}
+
+h2 {
+    display: block;
+    margin-left: 25px;
+    margin-right: 25px;
+    overflow: auto;
+}
+
+.date {
+    float: right;
+    margin-right: 10px;
+    font-size: 12px;
+    color: gray;
+}
+
+.noteTexts {
+    margin-left: 25px;
+    margin-right: 25px;
+    overflow: auto;
+}
+
+.edit {
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.delete {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.changePassword {
+    margin-top: 50px;
+}

@@ -1,0 +1,142 @@
+body {
+    background-color: #e6ecf0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+#header {
+    padding: 5px;
+    background-color: white;
+    position: fixed;
+    height: 40px;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid gray;
+}
+
+#banner {
+    margin-top: 50px;
+    height: 150px;
+    background-color: white;
+}
+
+#banner h1 {
+    margin-top: 40px;
+    float: right;
+    margin-right: 100px;
+}
+
+.bLogo {
+    margin-left: 100px;
+    height: 150px;
+    float: left;
+}
+
+.content {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    max-height: 55px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.dot {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.logo {
+    margin-top: 5px;
+    height: 30px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+.adminPage {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    visibility: hidden;
+}
+
+.signUp {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.logIn {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.logOut {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.userPic {
+    margin-top: 5px;
+    float: right;
+    height: 30px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+.recentBlock {
+    border: 1px solid black;
+    padding: 10px;
+    width: 400px;
+    min-height: 440px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.recentBlock ul {
+    text-align: left;
+}
+
+.recentBlock li {
+    margin-top: 15px;
+}
+
+.recommendedBlock {
+    border: 1px solid black;
+    padding: 10px;
+    width: 400px;
+    min-height: 440px;
+    margin-top: 15px;
+    margin-left: 50px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.recommendedBlock ul {
+    text-align: left;
+}
+
+.recommendedBlock li {
+    margin-top: 15px;
+}
+
+.test {
+    position: absolute;
+    margin-top: 550px;
+    margin-left: 100px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}

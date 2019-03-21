@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign up</title>
+    <link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+    <div id="header">
+        <a href="../index/index.html"><img class="logo" src="../resources/home.png"></a>
+        <a class="logIn" href="login.html">Log in</a>
+        <a class="signUp" href="sign_up.html">Sign up</a>
+    </div>
+
+    <div id="banner">
+        <img class="bLogo" src="../resources/logo.png">
+        <h1>Online Note Saver</h1>
+    </div>
+
+    <table id="loginTable">
+        <tr>
+            <td>
+                Username:
+            </td>
+            <td>
+                <input class="inputBox" id="usernameInput" type="text" placeholder="Username">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                E-mail:
+            </td>
+            <td>
+                <input class="inputBox" id="emailInput" type="text" placeholder="user@email.com">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Password:
+            </td>
+            <td>
+                <input class="passwordInputBox" id="passwordInput" type="password" placeholder="Password">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Confirm Password:
+            </td>
+            <td>
+                <input class="passwordInputBox" id="passwordInputConfirm" type="password" placeholder="Confirm">
+            </td>
+        </tr>
+    </table>
+
+    <div id="bottom">
+        <a id="message"></a>
+        <br>
+        <form id="buttonForm">
+            <input type="submit" id="loginButton" value="Sign up">
+        </form>
+    </div>
+
+    <script type="text/javascript" src="sign_up.js"></script>
+
+</body>
+</html>

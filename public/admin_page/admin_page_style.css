@@ -1,0 +1,91 @@
+body {
+    background-color: #e6ecf0;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+table, td, th {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+h4 {
+    margin-top: 5px;
+    margin-bottom: 2px;
+}
+
+
+td, th {
+    min-width: 200px;
+}
+
+#header {
+    padding: 5px;
+    background-color: white;
+    position: fixed;
+    height: 40px;
+    z-index: 1;
+    right: 0;
+    left: 0;
+    top: 0;
+    border-bottom: 1px solid gray;
+}
+
+#banner {
+    margin-top: 50px;
+    height: 150px;
+    background-color: white;
+}
+
+#banner h1 {
+    margin-top: 40px;
+    float: right;
+    margin-right: 100px;
+    font-size: 32px;
+}
+
+.bLogo {
+    margin-left: 100px;
+    height: 150px;
+    float: left;
+}
+
+.logo {
+    margin-top: 5px;
+    height: 30px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+.logOut {
+    float: right;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+.userPic {
+    margin-top: 5px;
+    float: right;
+    height: 30px;
+    margin-right: 40px;
+    border-radius: 50%;
+}
+
+
+.user {
+    border: 1px solid black;
+    padding: 10px;
+    max-width: 1000px;
+    margin-top: 10px;
+}
+
+.user p {
+    margin: 2px;
+}
+
+
+.user span {
+    font-weight: bold;
+}
+
+.green {
+    color: green;
+}

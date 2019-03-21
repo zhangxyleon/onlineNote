@@ -1,0 +1,35 @@
+1. In index.html, you need to log in or sign up firstly. Without logging in , you cannot read any notes.
+There are three blocks in the main page, each block at most display 10 entries., "Most Recent" block shows the
+10 latest public notes. "Most Popular" block shows the 10 most viewed notes. "Recommended" block shows the 10 most
+latest notes added by the admin.
+There is an "Add Note" button under the "Most Recent" block. This is only for test. In the future, only admin can
+edit the entries of "Recommended" block in the main page. "Most Recent" and "Most Popular" block will automatically
+update while the server database updates.
+
+2. In login.html
+    user: username:user
+          password:user
+    admin: username:admin
+           password:admin
+    when you input username that doesn't exist, it will return "User does not exist."
+    When you input correct username but wrong password ,it will return "Invalid password."
+
+ 3. when you log in as user you will back to main page. Now you can start to read other user's note (assume the notes in
+ the main page are all other users').You can also go to your own profile.
+
+ 4. when you log in as admin, you will reach admin_page. In that page you can delete  an user or specific note of a user .
+ It also have a link to normal profile of that admin.
+
+ 5. There are three kinds of profile page. In your own profile page, you can edit your personal information
+ and notes. The admin profile page is almost the same as user's page, except an entry linked to the admin panel.
+ When you read other user's profile and note, you can't edit.
+
+ 6. In editor page, we have a tinymce editor. You can edit and save your note.
+
+ 7. There are two kinds of viewer page, the owner page and the visitor page. In both the pages will display the title,
+ author, date and the content of the note. The difference is the "back" button will back to the user's profile page
+ in owner version, the button will back to the visitor's profile page in visitor version. Both the viewer pages cannot
+ be edited.
+
+ 8. You can change your user icon by clicking your big icon in your profile page. But for phase1, your icon won't be
+ uploaded and so that you can only select the picture from the project directory.

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSC309 Project</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div id="header">
+    <a href="index_logged_in.html"><img class="logo" src="../resources/home.png"></a>
+    <a id="logOut" class="logOut" href="">Log out</a>
+    <a href="../profile/profile_user.html"><img class="userPic" src="../resources/userPic.jpg"></a>
+    <a id="admin_button" class="adminPage" href="../admin_page/admin_page.html">Admin Panel</a>
+</div>
+
+<div id="banner">
+    <img class="bLogo" src="../resources/logo.png">
+    <h1>Online Note Saver</h1>
+</div>
+<main class="flex-center">
+<div class="recentBlock">
+    <h1>Most Recent</h1>
+    <ul id="recentNotes">
+    </ul>
+</div>
+<!--<form class="test">-->
+    <!--<input id="entry" type="text" name="note" placeholder="Note">-->
+    <!--<button id="add">Add Note</button>-->
+<!--</form>-->
+
+<div class="recommendedBlock">
+    <h1>Recommended</h1>
+    <ul id="recommendedNotes">
+    </ul>
+</div>
+</main>
+<script type="text/javascript" src="index_logged_in.js"></script>
+</body>
+</html>
